@@ -25,13 +25,13 @@ body{
 
 #line {
     width: 7px;
-    height: 280px;
+    height: 320px;
     background-color: black;
     border-radius: 20px;
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 85px;
 }
 
 .calc {
@@ -54,12 +54,16 @@ td input {
     text-align: center;
     width: 60px;
     height: 43px;
-    margin: 5px; /* Add margin here */
+    margin: 5px; 
     background-color: rgb(252, 250, 250);
     border-radius: 10px;
     font-size: 20px;
 }
-
+input:hover{
+    background-color:#9bd4ef ;
+    transition: 0.3s ease-in;
+    color: white;
+}
 
 .blue {
     color: rgb(30, 112, 150);
